@@ -1,0 +1,193 @@
+
+/*Global Styles
+---------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #C8D0D8;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+}
+img {
+  width: 1250px;
+}
+a {
+  color: #ABBDB1;
+}
+a:hover {
+  text-decoration: none;
+}
+h1 {
+  margin: 0;
+  font-family: 'Tangerine', cursive;
+  font-size: 100px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+h4 {
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.content-wrap {
+  max-width: 900px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.content-wrap2 {
+  max-width: 900px
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.content-wrap3 {
+  max-width: 600px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+h3 {
+  margin-bottom: 0;
+}
+h2 {
+  text-align: center;
+}
+
+.item-details h3 + p {
+  font-style: italic;
+}
+.item-details h3 ~ p {
+  margin: 0;
+}
+.item-details2 h3 + p {
+  font-style: italic;
+  margin-top: 10px;
+}
+.item-details2 h3 ~ p {
+}
+
+/*Profile
+---------------------*/
+header {
+  background: #F5F5F5;
+  color: #404F5E;
+  text-align: center;
+}
+header2 {
+  background: #rgb(136,176,75, 50%);
+  color: #404F5E;
+  text-align: center;
+}
+.title {
+  background-image: url(../images/topleaves.jpg);
+  background-size: cover;
+  background-position: top right;
+}
+
+
+/*Projects
+---------------------*/
+.projects {
+  background: #F5F5F5;
+  color: #404F5E;
+}
+.projects a {
+  color: #FFFFFF;
+  background: #1C7ABA;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.projects a:hover {
+  background: rgb(28, 122, 186, 80%);
+}
+.projects-item img {
+  float: left;
+}
+
+/*Work experience
+---------------------*/
+.work-experience {
+  background: #FFFFFF;
+  color: #404F5E;
+}
+
+.job-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 40px;
+}
+.divider > section {
+  border-bottom: 1px dashed #343434;
+  padding: 25px 0;
+}
+.divider > section:last-of-type {
+  border-bottom: none;
+}
+/*Education
+---------------------*/
+.education {
+  color: #404F5E;
+  background: #FFFFFF;
+  background-image: url(../images/educational-leaves.jpg);
+  background-size: cover;
+  background-position: top right;
+}
+
+
+.technical-skills {
+  background: #F5F5F5;
+  color: #404F5E;
+}
+
+.skills {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.skills-list {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 40px;
+}
+/*Contact
+---------------------*/
+footer {
+  background: #F5F5F5;
+  color: #404F5E;
+  text-align: center;
+}
+.footer1 {
+  background: #F5F5F5
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.contact-list a {
+  color: #FFFFFF;
+  background: #1C7ABA;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 15px;
+}
+.contact-list a:hover {
+  background: rgb(28, 122, 186, 80%);
+}
